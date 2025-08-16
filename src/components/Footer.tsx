@@ -1,6 +1,6 @@
 import { onest } from "@/lib/fonts";
 import { linkSections } from "@/lib/footer";
-import Image from 'next/image'
+
 
 export default function Footer() {
   return (
@@ -10,13 +10,13 @@ export default function Footer() {
       `}
     >
       {/* Decorative lines */}
-      <Image
+      <img
         src="line1-footer.svg"
         alt=""
         aria-hidden="true"
         className="pointer-events-none select-none absolute top-0 left-0 h-1/3 sm:h-1/2 lg:h-3/4"
       />
-      <Image
+      <img
         src="line2-footer.svg"
         alt=""
         aria-hidden="true"

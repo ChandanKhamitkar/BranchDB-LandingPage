@@ -1,7 +1,7 @@
 import { onest } from "@/lib/fonts";
 import { MdContentCopy } from "react-icons/md";
 import { IoLogoGithub } from "react-icons/io5";
-import Image from 'next/image'
+
 
 const sdkCardData = [
     {
@@ -25,7 +25,7 @@ export default function Page() {
     return (
         <div className={`h-screen w-full bg-black flex flex-col overflow-x-hidden overflow-y-scroll rounded-md relative pt-[130px] ${onest.className} pb-8 custom-scrollbar`}>
 
-            <Image src="js-sdk-hero-card.png" alt="Javascript SDK hero card" className="w-3/4 rounded-2xl mx-auto" />
+            <img src="js-sdk-hero-card.png" alt="Javascript SDK hero card" className="w-3/4 rounded-2xl mx-auto" />
 
             <div className="w-fit mx-auto flex justify-center items-center gap-10 mt-6 bg-neutral-100/10 backdrop-blur-2xl rounded-md text-md md px-4 py-3 font-mono">
                 <span >npm i branchdb-client</span>
@@ -35,7 +35,7 @@ export default function Page() {
             <div className="flex justify-center items-center mt-12 h-max gap-8">
                 {
                     sdkCardData.map((item, index) => <div key={index} className="bg-white/5 flex flex-col justify-center items-start rounded-2xl border border-white/10 w-96 overflow-clip h-full hover:border-jsyellow/60">
-                        <Image src={item.imageLink} alt="Integration Crad Img" className="w-full object-cover" />
+                        <img src={item.imageLink} alt="Integration Crad Img" className="w-full object-cover" />
                         <div className="bg-black px-5 py-6 w-full h-full">
                             <p className="text-xl text-white font-medium">{item.title}</p>
                             <p className="text-neutral-500 text-wrap text-md mt-2">{item.desc}</p>
