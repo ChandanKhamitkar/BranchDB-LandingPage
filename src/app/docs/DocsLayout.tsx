@@ -6,11 +6,16 @@ export default function DocsLayout({ children }: Readonly<{
     children: React.ReactNode;
 }>) {
     return (
-        <div className={`h-screen w-full px-6 bg-black flex flex-col overflow-y-scroll custom-scrollbar rounded-md relative pt-[150px] ${onest.className}`}>
-            <div className="flex justify-start items center gap-8">
+        <div
+            className={`min-h-screen w-full px-6 bg-black flex flex-col overflow-hidden custom-scrollbar rounded-md relative pt-[100px] ${onest.className}`}
+        >
+            <div className="flex flex-col lg:flex-row justify-start items-start gap-8 w-full">
                 <DocsSideBar />
-                {children}
+                <div className="flex-1 overflow-y-auto custom-scrollbar">
+                    {children}
+                </div>
             </div>
         </div>
+
     );
 };

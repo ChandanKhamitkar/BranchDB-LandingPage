@@ -8,7 +8,7 @@ import Point from "@/components/docs/Point";
 export default function Page() {
     return (
         <DocsLayout>
-            <div className="w-full h-auto flex flex-col justify-start items-start">
+            <div className="w-full h-auto flex flex-col justify-start items-start lg:mt-10">
 
                 {/* WelCome Card */}
                 <div className="w-full h-fit relative px-4 py-6 rounded-xl overflow-clip">
@@ -23,7 +23,7 @@ export default function Page() {
                             Docs
                         </span>
 
-                        <span className="text-14 font-medium leading-snug -tracking-tighter drop-shadow-2xl md:text-left md:text-16 md:font-normal lg:text-18 z-20 mt-4 ml-1"
+                        <p className="text-14 font-medium leading-snug -tracking-tighter drop-shadow-2xl md:text-left md:text-16 md:font-normal lg:text-18 z-20 mt-4 ml-1 text-wrap"
                             style={{
                                 backgroundImage: 'linear-gradient(143.14deg, #e0cc9f 49.06%, rgba(189,157,79,0) 91.07%)',
                                 WebkitBackgroundClip: 'text',
@@ -31,19 +31,16 @@ export default function Page() {
                             }}
                         >
                             Welcome to the official documentation for Branch DB
-                        </span>
+                        </p>
                     </div>
 
-                    {/* <div className="absolute inset-0 z-0 bg-[#2E2A26]"></div> */}
                     <img src="/Gold.svg" alt="Gold" className="absolute inset-0 w-full blur-2xl" />
                     <div className="w-6 h-6 bg-noise absolute inset-0 z-10 opacity-30 [mask-image:linear-gradient(0,#D9D9D9_0%,rgba(115,115,115,0.00)_100%)]"></div>
-
-
                 </div>
 
                 {/* #docs */}
                 <div className="w-full p-4 mt-6">
-                    <p className="text-4xl font-bold text-white mb-4">Getting Started</p>
+                    <p className="text-3xl sm:text-4xl font-bold text-white mb-4">Getting Started</p>
                     <Point pt="Before you start using Branch DB, you need to install it for your own operating system." />
                     <Point pt="We provide a Docker image for easy deployment or you can build it from source." />
 
