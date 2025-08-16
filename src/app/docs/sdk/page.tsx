@@ -1,10 +1,8 @@
 import CodeBlock from "@/components/docs/CodeBlock";
 import SubHeadLine from "@/components/docs/SubHeadLine";
-import Line from "@/components/docs/Line";
 import DocsLayout from "../DocsLayout";
 import Point from "@/components/docs/Point";
 import CommandsTable from "@/components/docs/CommandsTable";
-import { MdContentCopy } from "react-icons/md";
 import CodeSnippet from "@/components/docs/CodeSnippet";
 import SyntaxHighlighter from "@/components/docs/SyntaxHighlighter";
 import { methodsData, ServerResponseSample, ServerResponseTypes } from "@/lib/docs/sdk/sdkData";

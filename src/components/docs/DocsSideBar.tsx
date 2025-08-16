@@ -1,4 +1,4 @@
-import { onest } from "../../app/layout";
+import { onest } from "@/lib/fonts";
 
 export default function DocsSideBar() {
 

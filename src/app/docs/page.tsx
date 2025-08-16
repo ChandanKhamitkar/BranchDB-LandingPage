@@ -3,6 +3,7 @@ import Line from "@/components/docs/Line";
 import DocsLayout from "./DocsLayout";
 import SubHeadLine from "@/components/docs/SubHeadLine";
 import Point from "@/components/docs/Point";
+import Image from 'next/image'
 
 export default function Page() {
     return (
@@ -34,7 +35,7 @@ export default function Page() {
                     </div>
 
                     {/* <div className="absolute inset-0 z-0 bg-[#2E2A26]"></div> */}
-                    <img src="/Gold.svg" alt="Gold" className="absolute inset-0 w-full blur-2xl" />
+                    <Image src="/Gold.svg" alt="Gold" className="absolute inset-0 w-full blur-2xl" />
                     <div className="w-6 h-6 bg-noise absolute inset-0 z-10 opacity-30 [mask-image:linear-gradient(0,#D9D9D9_0%,rgba(115,115,115,0.00)_100%)]"></div>
 
 

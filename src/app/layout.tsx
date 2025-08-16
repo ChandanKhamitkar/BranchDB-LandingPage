@@ -1,19 +1,8 @@
 import type { Metadata } from "next";
-import { Onest, Geist_Mono } from "next/font/google";
+import { onest, geistmono } from "@/lib/fonts";
 import "./globals.css";
 import NavBar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-
-export const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-  weight: ['400', '500', '700']
-});
-export const onest = Onest({
-  variable: "--font-onest",
-  subsets: ["latin"],
-  weight: ['400', '500', '700']
-});
 
 export const metadata: Metadata = {
   title: "BranchDB",
@@ -23,16 +12,16 @@ export const metadata: Metadata = {
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode;  
+  children: React.ReactNode;
 }>) {
   return (
     <html lang="en">
       <body
-        className={`${onest.variable} ${geistMono.variable} antialiased`}
+        className={`${onest.variable} ${geistmono.variable} antialiased`}
       >
-          <NavBar />
+        <NavBar />
         {children}
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );

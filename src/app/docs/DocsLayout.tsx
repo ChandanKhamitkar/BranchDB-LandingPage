@@ -1,5 +1,6 @@
 import DocsSideBar from "@/components/docs/DocsSideBar";
-import { onest } from "../layout";
+import { onest } from "@/lib/fonts";
+
 
 export default function DocsLayout({ children }: Readonly<{
     children: React.ReactNode;

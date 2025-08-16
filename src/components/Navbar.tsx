@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useEffect, useRef } from "react";
 import { AiOutlineMenu } from "react-icons/ai";
+import Link from 'next/link'
 
 const NavBar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -52,14 +53,14 @@ const NavBar = () => {
             paddingBottom: isExpanded ? "1rem" : "0.25rem",
           }}
         >
-          <a href="/">
+          <Link href="/">
             <h1
               className="font-semibold bg-gradient-to-r from-metaliclight via-white to-metaliclight text-transparent bg-clip-text transition-all duration-300"
               style={{ fontSize: isExpanded ? "1.5rem" : "1rem" }}
             >
               BranchDB
             </h1>
-          </a>
+          </Link>
 
           {/* Desktop Nav */}
           <div className="hidden lg:flex items-center gap-2 font-semibold">
@@ -69,9 +70,9 @@ const NavBar = () => {
             <a href="/sdk" className={navClass}>
               SDK
             </a>
-            <a href="/#meet_developer" className={navClass}>
+            <Link href="/#meet_developer" className={navClass}>
               Meet Developer
-            </a>
+            </Link>
           </div>
 
           {/* Hamburger Icon */}
@@ -100,9 +101,9 @@ const NavBar = () => {
             <a href="/sdk" className={navClass}>
               SDK
             </a>
-            <a href="/#meet_developer" className={navClass}>
+            <Link href="/#meet_developer" className={navClass}>
               Meet Developer
-            </a>
+            </Link>
           </div>
         </div>
       )}
