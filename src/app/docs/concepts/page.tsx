@@ -9,10 +9,10 @@ import { commandsData, TTLTerminalLines } from "@/lib/docs/concepts/conceptsData
 export default function page() {
     return (
         <DocsLayout>
-            <div className="w-full h-auto flex flex-col justify-start items-start">
+            <div className="w-full h-auto flex flex-col justify-start items-start mb-10">
 
                 {/* Concepts */}
-                <div className="w-full p-4 mt-6">
+                <div className="w-full p-4 sm:mt-6">
                     <p className="text-4xl font-bold text-white mb-4">Core Features</p>
                     <Point pt="BranchDB is an in-memory key-value store built in C++, with support for TTL, set operations, authentication, and disk persistence. You can connect via a TCP client on port 1981 to start issuing commands." />
 

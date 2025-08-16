@@ -15,11 +15,13 @@ const SyntaxHighlighter: React.FC<CodeSnippetProps> = ({ code, language = "javas
   }, [code]);
 
   return (
-    <pre className="rounded-lg overflow-x-auto bg-[#1e1e1e]  shadow-lg">
-      <code className={`language-${language} hljs`}>
-        {code}
-      </code>
-    </pre>
+    <div className="w-full max-w-full overflow-hidden">
+      <pre className="rounded-lg overflow-x-auto bg-[#1e1e1e] shadow-lg p-4 text-sm max-w-full min-w-0">
+        <code className={`language-${language} hljs break-words whitespace-pre-wrap min-w-0 block`}>
+          {code}
+        </code>
+      </pre>
+    </div>
   );
 };
 

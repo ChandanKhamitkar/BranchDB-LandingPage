@@ -19,7 +19,7 @@ interface Command {
 
 const CommandsTable = (props: CommandTableProps) => {
     return (
-        <div className="relative overflow-x-auto shadow-lg sm:rounded-lg">
+        <div className="relative overflow-x-auto shadow-lg rounded-lg">
             <table className="w-full text-sm text-left text-white">
                 <thead className="text-lg bg-neutral-800">
                     <tr>

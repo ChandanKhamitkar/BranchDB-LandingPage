@@ -14,7 +14,7 @@ export default function page() {
             <div className="w-full h-auto flex flex-col justify-start items-start">
 
                 {/* SDK's */}
-                <div className="w-full p-4 mt-6">
+                <div className="w-full p-4 mt-6 mb-10">
                     <p className="text-4xl font-bold text-white mb-4">Client SDK - TypeScript/JavaScript</p>
                     <Point pt="We provide an official client SDK for Node.js, which simplifies network communication and protocol handling." />
                     <Point pt="Below is hands-on walkthrough of all the list of asynchronous methods that BranchDB Client SDK provides." />

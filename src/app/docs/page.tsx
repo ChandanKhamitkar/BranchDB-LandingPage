@@ -8,12 +8,11 @@ import Point from "@/components/docs/Point";
 export default function Page() {
     return (
         <DocsLayout>
-            <div className="w-full h-auto flex flex-col justify-start items-start lg:mt-10">
+            <div className="w-full h-auto flex flex-col justify-start items-start lg:mt-10 mb-10">
 
                 {/* WelCome Card */}
                 <div className="w-full h-fit relative px-4 py-6 rounded-xl overflow-clip">
                     <div className="flex flex-col">
-                        {/* Docs Title */}
                         <span className="inline-block text-4xl font-bold leading-dense text-transparent md:text-4xl lg:text-5xl xl:text-6xl z-20 drop-shadow-2xl"
                             style={{
                                 backgroundImage: 'linear-gradient(143.14deg, #e0cc9f 49.06%, rgba(189,157,79,0) 91.07%)',
@@ -30,7 +29,7 @@ export default function Page() {
                                 backgroundClip: 'text',
                             }}
                         >
-                            Welcome to the official documentation for Branch DB
+                            Welcome to the official documentation for BranchDB
                         </p>
                     </div>
 
@@ -39,7 +38,7 @@ export default function Page() {
                 </div>
 
                 {/* #docs */}
-                <div className="w-full p-4 mt-6">
+                <div className="w-full p-1 sm:p-4 mt-6 overflow-hidden">
                     <p className="text-3xl sm:text-4xl font-bold text-white mb-4">Getting Started</p>
                     <Point pt="Before you start using Branch DB, you need to install it for your own operating system." />
                     <Point pt="We provide a Docker image for easy deployment or you can build it from source." />
@@ -47,12 +46,12 @@ export default function Page() {
                     <SubHeadLine id="installation" headline="Installation & Setup" />
                     <Point pt="Our recommended approach is to use the official Docker image. This handles all C++ build steps and dependencies for you." />
 
-                    <p className="mt-8 mb-4 text-xl underline underline-offset-8 font-medium decoration-neutral-700/50">Option A: Docker (Recommended)</p>
+                    <p className="mt-8 mb-4 text-lg sm:text-xl underline underline-offset-8 font-medium decoration-neutral-700/50">Option A: Docker (Recommended)</p>
                     <Point pt="You can pull the pre-built image from Docker Hub and run it directly." />
                     <CodeBlock num="1" step="Pull the Image:" code="> docker pull chandankhamitkar/branchdb" />
                     <CodeBlock num="2" step="Run the Container:" code="> docker run -p 1981:1981 chandankhamitkar/branchdb" />
 
-                    <p className="mt-8 mb-4 text-xl underline underline-offset-8 font-medium decoration-neutral-700/50">Option B: Build from Source</p>
+                    <p className="mt-8 mb-4 text-lg sm:text-xl underline underline-offset-8 font-medium decoration-neutral-700/50">Option B: Build from Source</p>
                     <Point pt="If you prefer to build the database from source, you will need a C++ toolchain and CMake installed." />
                     <CodeBlock step="Clone the Repository:"
                         code={["git clone https://github.com/ChandanKhamitkar/BranchDB.git", "cd BranchDB"]}
@@ -82,7 +81,7 @@ export default function Page() {
                             "> GET mykey",
                             "[OK] GET: key mykey -> value",
                         ]}
-                    />
+                    /> 
                 </div>
             </div>
         </DocsLayout>
