@@ -38,7 +38,7 @@ export default function Footer() {
       {/* Background word */}
       <p
         className="
-          pointer-events-none select-none absolute inset-x-0 mx-auto text-center z-20 font-medium text-[clamp(6rem,18vw,15rem)] bg-gradient-to-b from-white via-[#CCCCCC]/50 to-[#999999]/0 text-transparent bg-clip-text opacity-10 top-[10%] sm:top-[8%] lg:top-[6%]
+          pointer-events-none select-none absolute inset-x-0 mx-auto text-center z-20 font-medium text-[clamp(6rem,18vw,15rem)] bg-gradient-to-b from-[#FE6A00] via-[#FE6A00]/70 to-[#999999]/0 text-transparent bg-clip-text opacity-30 top-[10%] sm:top-[8%] lg:top-[6%]
         "
       >
         BranchDB
