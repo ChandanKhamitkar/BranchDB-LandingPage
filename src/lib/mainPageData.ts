@@ -7,14 +7,17 @@ export const mainPageData = [
   {
     title: "Blazingly Fast",
     desc: "Built from scratch with C++. No frameworks or hidden databases. Everything is engineered for low-level performance.",
+    imageLink: "speed.svg"
   },
   {
     title: "Secure",
     desc: "Built with a crash-safe log, your data is durably stored. You have full control over persistence.",
+    imageLink: "secure.svg"
   },
   {
     title: "Dev First",
     desc: "Connect and interact using the official JS SDK. Experience a clean, asynchronous API that handles all the protocol complexities for you.",
+    imageLink: "dev-first.svg"
   },
 ];
 

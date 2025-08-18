@@ -2,6 +2,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { AiOutlineMenu } from "react-icons/ai";
 import Link from 'next/link'
+import { onest } from "@/lib/fonts";
 
 const NavBar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -47,23 +48,29 @@ const NavBar = () => {
         }}
       >
         <div
-          className={`flex gap-8 items-center justify-between bg-black/30 backdrop-blur-2xl border border-white/10 lg:border-white/20 shadow-xl rounded-full px-6 transition-all duration-300`}
+          className={`flex gap-8 items-center justify-between bg-black/30 backdrop-blur-2xl border border-white/10 lg:border-white/20 shadow-xl rounded-full px-6 transition-all duration-300 ${onest.className}`}
           style={{
             paddingTop: isExpanded ? "1rem" : "0.25rem",
             paddingBottom: isExpanded ? "1rem" : "0.25rem",
           }}
         >
-          <Link href="/">
-            <h1
-              className="font-semibold bg-gradient-to-r from-metaliclight via-white to-metaliclight text-transparent bg-clip-text transition-all duration-300"
-              style={{ fontSize: isExpanded ? "1.5rem" : "1rem" }}
-            >
-              BranchDB
-            </h1>
-          </Link>
+          <div className={`flex justify-center items-center`}>
+            <Link href="/">
+              <h1
+                className="font-semibold bg-gradient-to-r from-metaliclight via-white to-metaliclight text-transparent bg-clip-text transition-all duration-300"
+                style={{ fontSize: isExpanded ? "1.5rem" : "1rem" }}
+              >
+                BranchDB
+              </h1>
+            </Link>
+
+            <p
+              style={{ fontSize: isExpanded ? "10px" : "8px" }}
+              className="px-2 py-1 bg-neutral-700/40 backdrop-blur text-neutral-400 rounded-4xl ml-3 font-light tracking-wider">v1.1.0-alpha</p>
+          </div>
 
           {/* Desktop Nav */}
-          <div className="hidden lg:flex items-center gap-2 font-semibold">
+          <div className="hidden lg:flex items-center gap-2 font-semibold ">
             <a href="/docs" className={navClass}>
               Docs
             </a>
@@ -93,7 +100,7 @@ const NavBar = () => {
 
       {/* Mobile Nav */}
       {isNavOpen && (
-        <div className="fixed top-30 left-1/2 transform -translate-x-1/2 z-50 w-[75%]">
+        <div className={`fixed top-30 left-1/2 transform -translate-x-1/2 z-50 w-[75%] ${onest.className}`}>
           <div className="flex flex-col gap-4 bg-black/20 backdrop-blur-xl border border-white/10 py-4 px-6 shadow-xl rounded-xl font-medium">
             <a href="/docs" className={navClass}>
               Docs
