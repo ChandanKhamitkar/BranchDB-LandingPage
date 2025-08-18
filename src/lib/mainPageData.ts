@@ -7,17 +7,17 @@ export const mainPageData = [
   {
     title: "Blazingly Fast",
     desc: "Built from scratch with C++. No frameworks or hidden databases. Everything is engineered for low-level performance.",
-    imageLink: "speed.svg"
+    imageLink: "speed.svg",
   },
   {
     title: "Secure",
     desc: "Built with a crash-safe log, your data is durably stored. You have full control over persistence.",
-    imageLink: "secure.svg"
+    imageLink: "secure.svg",
   },
   {
     title: "Dev First",
     desc: "Connect and interact using the official JS SDK. Experience a clean, asynchronous API that handles all the protocol complexities for you.",
-    imageLink: "dev-first.svg"
+    imageLink: "dev-first.svg",
   },
 ];
 
@@ -41,6 +41,11 @@ export const cookedData = [
     title: "Write-Ahead Log",
     imageLink: "write-ahead.svg",
     desc: "Every write is logged for crash safety, keeps startup times fast.",
+  },
+  {
+    title: "Log Compaction",
+    imageLink: "compact.svg",
+    desc: "Cleans up redundant logs to keep storage lean and recovery fast.",
   },
   {
     title: "Multi-Threaded Handling",
