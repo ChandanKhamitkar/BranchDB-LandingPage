@@ -33,7 +33,7 @@ const NavBar = () => {
     };
   }, []);
 
-  const navClass = `py-1 px-6 rounded-xl hover:text-primarylight transform transition duration-300 my-2 hover:translate-x-2 text-sm font-normal`;
+  const navClass = `py-1 px-6 rounded-xl hover:text-primarylight transform transition duration-300 my-2 hover:translate-x-2 text-sm font-medium`;
 
   return (
     <>
