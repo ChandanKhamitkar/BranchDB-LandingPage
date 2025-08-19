@@ -74,3 +74,22 @@ export const socials = [
   { href: "https://github.com/ChandanKhamitkar", Icon: IoLogoGithub },
   { href: "https://chandankhamitkar.vercel.app/", Icon: SlGlobe },
 ];
+
+export const nextFeaturesList = [
+  {
+    title: "Dev Controllable WAL",
+    desc: "Developers can control wheather to choose Explicit or Implicit WAL.",
+  },
+  {
+    title: "LRU Cache",
+    desc: "Least Recently used keys will be discarded.",
+  },
+  {
+    title: "Connection Pooling",
+    desc: "Thread pool that reuses a fixed number of threads.",
+  },
+  {
+    title: "Metrics & Observability",
+    desc: "Built-in Prometheus/Grafana metrics and tracing support.",
+  },
+];

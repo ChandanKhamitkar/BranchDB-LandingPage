@@ -6,6 +6,7 @@ import WhatICookedUp from "@/components/home/whatICookedUp";
 import Performance from "@/components/home/performance";
 import SupportUs from "@/components/home/supportUs";
 import TheBrains from "@/components/home/theBrains";
+import NextFeatures from "@/components/home/NextFeatures";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Performance/>
       <SupportUs/>
       <TheBrains/>
+      <NextFeatures/>
       <div className="py-10"></div>
     </div >
   );
