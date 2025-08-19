@@ -66,7 +66,7 @@ const NavBar = () => {
 
             <p
               style={{ fontSize: isExpanded ? "10px" : "8px" }}
-              className="px-2 py-1 bg-neutral-700/40 backdrop-blur text-neutral-400 rounded-4xl ml-3 font-light tracking-wider">v1.1.0-alpha</p>
+              className="px-2 py-1 bg-neutral-700/40 backdrop-blur text-neutral-400 rounded-4xl ml-3 font-light tracking-wider text-center hidden sm:block">v1.1.0-alpha</p>
           </div>
 
           {/* Desktop Nav */}

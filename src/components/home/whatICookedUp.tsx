@@ -21,11 +21,6 @@ export default function WhatICookedUp() {
                                 className="absolute inset-0 object-cover opacity-50 pointer-events-none"
                             />
 
-                            {/* Title */}
-                            <p className="text-xl sm:text-2xl font-medium text-white drop-shadow-xl uppercase">
-                                {item.title}
-                            </p>
-
                             {/* Icon */}
                             <div className="flex-1 flex items-center justify-center">
                                 <img
@@ -35,10 +30,17 @@ export default function WhatICookedUp() {
                                 />
                             </div>
 
+                            {/* Title */}
+                            <p className="text-xl sm:text-2xl font-medium text-white drop-shadow-xl">
+                                {item.title}
+                            </p>
+
                             {/* Description */}
                             <p className="text-sm sm:text-md font-light text-neutral-400 drop-shadow-xl mt-4">
                                 {item.desc}
                             </p>
+
+
                         </div>
                     </div>
                 ))}

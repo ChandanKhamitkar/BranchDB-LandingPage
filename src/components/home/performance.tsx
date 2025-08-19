@@ -11,7 +11,7 @@ export default function Performance() {
                 <img src="benchmarks-card-reqs.png" alt="Benchmark Requests Details" className="w-full object-contain" />
                 <img src="benchmarks-card-clients.png" alt="Benchmark Client Details" className="w-full object-contain" />
             </div>
-            <p className="mt-6 md:mt-12 text-xs lg:text-base text-gray-400 text-center w-[90%] md:w-[70%] leading-5 sm:leading-normal">Note: Performance tests were conducted on an Lenovo ideapad Slim 3, 64-bit operating system with 8 GB RAM, 11th Gen Intel(R). Results may vary on different hardware.</p>
+            <p className="mt-6 md:mt-12 text-xs lg:text-base text-gray-400 text-center w-[90%] md:w-[70%] leading-5 sm:leading-normal">Note: Performance tests were conducted on Lenovo ideapad Slim 3, 64-bit operating system with 8 GB RAM, 11th Gen Intel(R). Results may vary on different hardware.</p>
         </div>
 
     );
