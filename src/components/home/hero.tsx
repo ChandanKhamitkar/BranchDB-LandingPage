@@ -10,7 +10,7 @@ export default function Hero() {
             <div className="absolute inset-0 bg-black/40 z-10"></div>
 
             {/* Hero content */}
-            <div className="flex flex-col items-center justify-center flex-1 relative z-20 px-4 sm:px-6">
+            <div data-aos="fade-up" data-aos-duration="600" data-aos-delay="100" className="flex flex-col items-center justify-center flex-1 relative z-20 px-4 sm:px-6">
                 <h1 className="text-6xl sm:text-8xl md:text-9xl lg:text-[190px] font-medium text-center bg-gradient-to-r from-white/80 via-yellow-100 to-white/80 bg-clip-text text-transparent drop-shadow-[0_2px_10px_rgba(255,255,255,0.3)]">
                     BranchDB
                 </h1>

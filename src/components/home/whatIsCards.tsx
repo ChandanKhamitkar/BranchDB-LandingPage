@@ -2,7 +2,7 @@ import { mainPageData } from "@/lib/mainPageData";
 
 export default function WhatIsCards() {
     return (
-        <div className="md:mt-10 flex flex-col md:flex-row justify-center items-center md:items-stretch h-max px-6 border border-neutral-400/20">
+        <div data-aos="fade-up" data-aos-duration="600" data-aos-delay="100" className="md:mt-10 flex flex-col md:flex-row justify-center items-center md:items-stretch h-max px-6 border border-neutral-400/20">
             {
                 mainPageData.map((item, index) => <div key={index} className="flex flex-col justify-start items-start bg-neutral-950/30 border border-neutral-400/20 p-6 relative w-fit sm:w-96 overflow-clip">
                     <img src="dots.svg" alt="Key Value icon" className="absolute w-full h-full object-cover inset-0 z-0 opacity-[7%]" />

@@ -2,7 +2,7 @@ import { IoLogoGithub } from "react-icons/io5";
 
 export default function SupportUs() {
     return (
-        <div className="py-16 sm:py-40 w-full flex flex-col justify-center items-center px-6">
+        <div data-aos="fade-up" data-aos-duration="600" data-aos-delay="100" className="py-16 sm:py-40 w-full flex flex-col justify-center items-center px-6">
             <p className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-neutral-100 font-medium mx-auto w-fit mb-6 text-center">
                 Blown away? Give us a boost!
             </p>

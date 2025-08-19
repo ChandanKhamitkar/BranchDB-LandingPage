@@ -3,6 +3,7 @@ import { onest, geistmono } from "@/lib/fonts";
 import "./globals.css";
 import NavBar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import AOSProvider from './AOSProvider';
 
 export const metadata: Metadata = {
   title: "BranchDB",
@@ -20,7 +21,7 @@ export default function RootLayout({
         className={`${onest.variable} ${geistmono.variable} antialiased`}
       >
         <NavBar />
-        {children}
+        <AOSProvider>{children}</AOSProvider>
         <Footer />
       </body>
     </html>

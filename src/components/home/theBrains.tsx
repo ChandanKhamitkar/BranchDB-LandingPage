@@ -22,7 +22,7 @@ export default function TheBrains() {
 
             {/* Main Title */}
             <div className="relative z-20 mb-8 sm:mb-12">
-                <p className="text-4xl sm:text-5xl lg:text-6xl xl:text-8xl font-medium text-neutral-500 text-center mx-auto px-4">
+                <p data-aos="fade-up" data-aos-duration="600" data-aos-delay="100" className="text-4xl sm:text-5xl lg:text-6xl xl:text-8xl font-medium text-neutral-500 text-center mx-auto px-4">
                     The Brains
                 </p>
             </div>
@@ -33,7 +33,7 @@ export default function TheBrains() {
                 {/* Mobile Layout (up to md) */}
                 <div className="block lg:hidden">
                     {/* Profile Section - Mobile First */}
-                    <div className="flex justify-center mb-8 sm:mb-12 relative">
+                    <div data-aos="fade-up" data-aos-duration="600" data-aos-delay="100" className="flex justify-center mb-8 sm:mb-12 relative">
                         {/* Circle background */}
                         <div className="w-[280px] h-[280px] sm:w-[350px] sm:h-[350px] bg-black/20 rounded-full backdrop-blur-md absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none"></div>
 
@@ -48,7 +48,7 @@ export default function TheBrains() {
                     </div>
 
                     {/* Info Section - Mobile */}
-                    <div className="space-y-6 sm:space-y-8 text-left">
+                    <div data-aos="fade-up" data-aos-duration="600" data-aos-delay="100" className="space-y-6 sm:space-y-8 text-left">
                         {/* Engineer Description */}
                         <div className="space-y-4">
                             <p className="text-base sm:text-lg font-medium text-neutral-300 leading-7 sm:leading-8">
@@ -100,7 +100,7 @@ export default function TheBrains() {
                 {/* Desktop Layout (lg and up) */}
                 <div className="hidden lg:grid lg:grid-cols-3 gap-8 xl:gap-12 items-start">
                     {/* LEFT Column */}
-                    <div className="flex flex-col justify-start items-start text-left space-y-6">
+                    <div data-aos="fade-up" data-aos-duration="600" data-aos-delay="100" className="flex flex-col justify-start items-start text-left space-y-6">
                         <div className="space-y-4">
                             <p className="text-lg xl:text-xl font-medium text-neutral-300 leading-8">
                                 I&apos;m an <span className="px-3 py-1 rounded-3xl bg-white/30 backdrop-blur-lg text-neutral-900">Engineer</span> fascinated by the art of system design and databases.
@@ -136,7 +136,7 @@ export default function TheBrains() {
                     </div>
 
                     {/* CENTER Column */}
-                    <div className="relative flex justify-center self-end">
+                    <div data-aos="fade-up" data-aos-duration="600" data-aos-delay="100" className="relative flex justify-center self-end">
                         {/* Circle behind profile */}
                         <div className="absolute flex items-center justify-center pointer-events-none z-15">
                             <div className="w-[500px] h-[500px] xl:w-[600px] xl:h-[600px] bg-black/20 rounded-full backdrop-blur-md translate-y-[22%]"></div>
@@ -153,7 +153,7 @@ export default function TheBrains() {
                     </div>
 
                     {/* RIGHT Column */}
-                    <div className="flex flex-col justify-start items-end text-right space-y-6">
+                    <div data-aos="fade-up" data-aos-duration="600" data-aos-delay="100" className="flex flex-col justify-start items-end text-right space-y-6">
                         <p className="text-lg xl:text-xl font-medium text-neutral-300 leading-8">
                             The more rooted in the core, the better.
                         </p>

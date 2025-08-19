@@ -1,7 +1,7 @@
 import { onest } from "@/lib/fonts";
 export default function Performance() {
     return (
-        <div className={`relative py-10 sm:py-20 w-full flex flex-col justify-center items-center overflow-x-hidden ${onest.className}`}>
+        <div className={`relative py-10 sm:py-20 w-full flex flex-col justify-center items-center overflow-hidden ${onest.className}`}>
             {/* Top Right */}
             <div
                 className="absolute top-0 right-0 w-52 sm:w-96 h-52 sm:h-96 rounded-full opacity-30 blur-3xl pointer-events-none"
@@ -20,11 +20,12 @@ export default function Performance() {
                 }}
             />
 
-            <p className="text-3xl md:text-5xl text-neutral-100 font-medium mx-auto w-fit text-center relative z-10 px-2 sm:px-6">
+            <p data-aos="fade-up" data-aos-duration="600" data-aos-delay="100" className="text-3xl md:text-5xl text-neutral-100 font-medium mx-auto w-fit text-center relative z-10 px-2 sm:px-6">
                 Performance Test
             </p>
 
             <div
+                data-aos="fade-up" data-aos-duration="600" data-aos-delay="100"
                 className="relative w-[90%] mt-12 rounded-2xl overflow-hidden shadow-2xl z-10 px-2 sm:px-6"
                 style={{
                     perspective: '1000px',
@@ -57,7 +58,7 @@ export default function Performance() {
                 </div>
             </div>
 
-            <div className="mt-12 h-auto py-px bg-gradient-to-r from-transparent via-neutral-400/40 to-transparent w-[80%] px-0">
+            <div data-aos="fade-up" data-aos-duration="600" data-aos-delay="100" className="mt-12 h-auto py-px bg-gradient-to-r from-transparent via-neutral-400/40 to-transparent w-[80%] px-0">
 
                 <div className="bg-black py-6 flex flex-col sm:flex-row justify-between items-center w-full mx-auto px-2 sm:px-6 space-y-6 sm:space-y-0">
                     <div className="flex flex-col justify-center items-center">
@@ -71,7 +72,7 @@ export default function Performance() {
                 </div>
             </div>
 
-            <p className="mt-6 md:mt-12 text-xs lg:text-base text-gray-400 text-center w-[90%] md:w-[70%] leading-5 sm:leading-normal relative z-10">
+            <p data-aos="fade-up" data-aos-duration="600" data-aos-delay="100" className="mt-6 md:mt-12 text-xs lg:text-base text-gray-400 text-center w-[90%] md:w-[70%] leading-5 sm:leading-normal relative z-10">
                 Note: Performance tests were conducted on Lenovo ideapad Slim 3, 64-bit operating system with 8 GB RAM, 11th Gen Intel(R). Results may vary on different hardware.
             </p>
         </div>
