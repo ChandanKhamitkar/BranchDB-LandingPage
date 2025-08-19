@@ -37,7 +37,7 @@ export default function Performance() {
                     loop
                     muted
                     playsInline
-                    className="w-full h-[300px] md:h-[450px] object-cover opacity-50"
+                    className="w-full h-[300px] md:h-[450px] object-cover opacity-60"
                     style={{
                         transform: 'rotateX(15deg) rotateY(-8deg) translateZ(0)',
                         transformOrigin: 'center center',
