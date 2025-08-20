@@ -4,6 +4,7 @@ import "./globals.css";
 import NavBar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import AOSProvider from './AOSProvider';
+import { Analytics } from "@vercel/analytics/next"
 
 export const metadata: Metadata = {
   title: "BranchDB",
@@ -23,6 +24,7 @@ export default function RootLayout({
         <NavBar />
         <AOSProvider>{children}</AOSProvider>
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
