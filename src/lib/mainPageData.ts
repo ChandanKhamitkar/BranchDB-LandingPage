@@ -64,6 +64,24 @@ export const cookedData = [
   },
 ];
 
+export const blogsData = [
+  {
+    imageLink: "blog-1.webp",
+    title: "Why I Spent 500+ Hours Building a Database from Scratch in C++",
+    link: "https://medium.com/@khamitkar.dev/why-i-spent-500-hours-building-a-database-from-scratch-in-c-e61fd8e94156"
+  },
+  {
+    imageLink: "blog-2.webp",
+    title: "The Persistence Dilemma",
+    link: "https://medium.com/@khamitkar.dev/the-persistence-dilemma-d956a49f4000"
+  },
+  {
+    imageLink: "blog-3.webp",
+    title: "Logs are great… until they become baggage. 🧹 This is where log compaction saves the day",
+    link: "https://medium.com/@khamitkar.dev/logs-are-great-until-they-become-baggage-this-is-where-log-compaction-saves-the-day-f014a053ddb1"
+  },
+];
+
 export const socials = [
   { href: "https://x.com/chandan_k_dev", Icon: RiTwitterXFill },
   {

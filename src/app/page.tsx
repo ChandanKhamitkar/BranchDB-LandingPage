@@ -7,6 +7,7 @@ import Performance from "@/components/home/performance";
 import SupportUs from "@/components/home/supportUs";
 import TheBrains from "@/components/home/theBrains";
 import NextFeatures from "@/components/home/NextFeatures";
+import BlogBytes from "@/components/home/blogBytes";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <WhatIsCards/>
       <WhatICookedUp/>
       <Performance/>
+      <BlogBytes/>
       <SupportUs/>
       <TheBrains/>
       <NextFeatures/>
