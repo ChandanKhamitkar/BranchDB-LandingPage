@@ -1,14 +1,14 @@
-import { cookedData } from "@/lib/mainPageData";
+import { arsenalData } from "@/lib/mainPageData";
 
-export default function WhatICookedUp() {
+export default function Arsenal() {
     return (
         <div className="pb-20 pt-20 md:pt-40 w-full flex flex-col justify-center items-center px-4 sm:px-6">
             <p data-aos="fade-up" data-aos-duration="600" data-aos-delay="100" className="text-4xl md:text-7xl text-neutral-100 font-medium text-center mx-auto w-fit">
-               The Arsenal of Features
+                The Arsenal of Features
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-14 md:mt-16 mx-auto">
-                {cookedData.map((item, index) => (
+                {arsenalData.map((item, index) => (
                     <div
                         data-aos="fade-up" data-aos-duration="600" data-aos-delay="100"
                         key={index}

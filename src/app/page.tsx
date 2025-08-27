@@ -2,7 +2,7 @@ import { onest } from "@/lib/fonts";
 import Hero from "@/components/home/hero";
 import WhatIsBranchDB from "@/components/home/whatIsBranchDB";
 import WhatIsCards from "@/components/home/whatIsCards";
-import WhatICookedUp from "@/components/home/whatICookedUp";
+import Arsenal from "@/components/home/Arsenal";
 import Performance from "@/components/home/performance";
 import SupportUs from "@/components/home/supportUs";
 import TheBrains from "@/components/home/theBrains";
@@ -12,15 +12,15 @@ import BlogBytes from "@/components/home/blogBytes";
 export default function Home() {
   return (
     <div className={`w-full bg-black flex flex-col overflow-x-hidden custom-scrollbar rounded-md relative ${onest.className}`}>
-      <Hero/>
-      <WhatIsBranchDB/>
-      <WhatIsCards/>
-      <WhatICookedUp/>
-      <Performance/>
-      <BlogBytes/>
-      <SupportUs/>
-      <TheBrains/>
-      <NextFeatures/>
+      <Hero />
+      <WhatIsBranchDB />
+      <WhatIsCards />
+      <Arsenal />
+      <Performance />
+      <BlogBytes />
+      <SupportUs />
+      <TheBrains />
+      <NextFeatures />
       <div className="py-10"></div>
     </div >
   );

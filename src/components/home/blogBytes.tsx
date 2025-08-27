@@ -22,7 +22,7 @@ export default function BlogBytes() {
         {blogsData.map((item, index) => (
           <div
             key={index}
-            className="group relative flex flex-col justify-start items-start bg-neutral-950/30 border border-neutral-400/20 pb-4 px-4 sm:px-6 sm:py-6 w-full sm:w-96 overflow-hidden cursor-pointer"
+            className="group relative flex flex-col justify-start items-start bg-neutral-950/30 border border-neutral-400/20 p-4 sm:p-6 w-full sm:w-96 overflow-hidden cursor-pointer"
           >
             <img src={item.imageLink} alt="Card Icon" className="w-full h-48 sm:h-56 object-contain" />
 
