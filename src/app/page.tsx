@@ -8,11 +8,13 @@ import SupportUs from "@/components/home/supportUs";
 import TheBrains from "@/components/home/theBrains";
 import NextFeatures from "@/components/home/NextFeatures";
 import BlogBytes from "@/components/home/blogBytes";
+import Trailer from "@/components/home/Trailer";
 
 export default function Home() {
   return (
     <div className={`w-full bg-black flex flex-col overflow-x-hidden custom-scrollbar rounded-md relative ${onest.className}`}>
       <Hero />
+      <Trailer/>
       <WhatIsBranchDB />
       <WhatIsCards />
       <Arsenal />

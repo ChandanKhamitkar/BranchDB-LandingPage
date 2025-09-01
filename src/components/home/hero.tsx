@@ -26,6 +26,33 @@ export default function Hero() {
                     <div className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-white to-transparent h-px w-1/4" />
                 </div>
 
+
+                {/* <div className="absolute bottom-6 flex justify-center items-center w-full z-30">
+                    <a
+                        href="https://www.producthunt.com/products/branchdb?embed=true&utm_source=badge-featured&utm_medium=badge&utm_source=badge-branchdb"
+                        target="_blank"
+                    >
+                        <img
+                            src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1011367&theme=dark&t=1756658198519"
+                            alt="BranchDB | Product Hunt"
+                            style={{ width: "250px", height: "54px" }}
+                            width="250"
+                            height="54"
+                        />
+                    </a>
+                    <a
+                        href="https://peerlist.io/chandank/project/branchdb"
+                        target="_blank"
+                    >
+                        <img
+                            src="https://peerlist.io/api/v1/projects/embed/PRJHJKNQJNQMAOP7B1RPBE69NORR9D?showUpvote=false&theme=dark"
+                            alt="BranchDB | Peerlist"
+                            style={{ width: "250px", height: "54px" }}
+                            width="250"
+                            height="54"
+                        />
+                    </a>
+                </div> */}
             </div>
         </div>
     );
