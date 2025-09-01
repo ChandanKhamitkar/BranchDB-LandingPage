@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://branchdb.khamitkar.dev/sitemap.xml
